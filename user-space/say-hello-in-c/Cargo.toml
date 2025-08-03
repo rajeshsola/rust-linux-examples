@@ -1,0 +1,13 @@
+[package]
+name = "myhello"
+description = "Simple RUST example."
+repository = "https://github.com/rsola32/rust-yocto-examples"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[build]
+rustflags = ["-l", "static=hello"]
