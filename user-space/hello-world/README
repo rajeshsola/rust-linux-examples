@@ -1,0 +1,10 @@
+## Build
+```
+cargo build            # dev build, unoptimized + debuginfo
+cargo build --release  # release build, optimized and no debuginfo
+```
+## Run
+```
+cargo run
+
+
