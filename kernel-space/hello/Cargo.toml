@@ -1,0 +1,8 @@
+[package]
+name = "rust_hello"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+kernel = { path = "/lib/modules/6.8.12-rustemb/build", features = ["bindings"] }
+#crate-type = ["staticlib"]
