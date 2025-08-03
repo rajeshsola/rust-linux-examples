@@ -1,3 +1,3 @@
 * [Simple Program](hello-world)
-* [Static Library](my_hello_slib)
+* [Static Library](my-hello-slib)
 * [Dynamic Library](my-hello-dlib)
