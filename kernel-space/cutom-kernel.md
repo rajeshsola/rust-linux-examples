@@ -9,7 +9,8 @@
 ```
 make rustavailable
 ```
-* Install necessary packages like rustc, clang, bindgen etc, if any missing packages are reported.
+If the output is `Rust is available!`, system is ready to build kernel with RUST support.
+* Install necessary packages like rustc & other rust tools, clang, bindgen etc, if any missing packages are reported.
 > Please refer `Documentation/rust/quick-start.rst` also
 > [Quick Start](https://docs.kernel.org/6.10/rust/quick-start.html)
 
@@ -52,3 +53,4 @@ make LLVM=1 BINDGEN=bindgen-0.65 -j12
 ```
 
  
+
