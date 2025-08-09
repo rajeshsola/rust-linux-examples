@@ -32,6 +32,7 @@ make olddefconfig
 # Build the kernel image and modules
 ```
 make LLVM=1 -j<n>   # bzImage, modules
+make LLVM=1 modules_prepare # optional step, to support building out-tree-modules
 ```
 
 # Install the modules and kernel image
@@ -53,4 +54,5 @@ make LLVM=1 BINDGEN=bindgen-0.65 -j12
 ```
 
  
+
 
